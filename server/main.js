@@ -4,7 +4,7 @@ import { MyCollection } from '/imports/both/MyCollection';
 
 Meteor.startup(() => {
   const data = {
-    ******THIS IS WHERE THE DATA NEEDS TO BE INSERTED INTO MONGODB******
+    // ******THIS IS WHERE THE DATA NEEDS TO BE INSERTED INTO MONGODB******
   }
   MyCollection.remove(); // Delete all data from collection
   MyCollection.insert(data); // Load data into collection
